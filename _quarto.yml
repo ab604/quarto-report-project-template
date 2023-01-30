@@ -1,0 +1,32 @@
+# Project title comes from the index.qmd file 
+project:
+  type: book
+  # This works, but rendering with a file path doesn't work with Windows yet.
+  output-dir: drafts 
+
+# Individual documents to compile into manuscript
+book:
+  chapters:
+    - index.qmd # This contains the title and front matter
+    - abstract.qmd
+    - body.qmd
+    - references.qmd
+
+# Turn of table of contents and section numbering
+toc: false
+number-sections: false
+number-depth: 1
+# References bib file
+bibliography: references.bib  
+
+# Don't show the code in the output
+execute: 
+  echo: false
+
+# Output a word file using my Arial template with PLoS style referencing
+format: 
+  docx: 
+    reference-doc: arial_template.docx
+    csl: plos.csl
+    link-citations: true
+

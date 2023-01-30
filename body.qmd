@@ -1,0 +1,26 @@
+## Introduction
+
+We done some science innit [@nicholas2022].
+
+## Results
+
+@fig-01 shows the Bibi cat doing what she does best.
+
+```{r}
+#| label: fig-01
+#| fig-cap: "Bibi demonstrates the perfect cat croissant."
+#| echo: false
+knitr::include_graphics("img/bibi.jpg")
+```
+{{< pagebreak >}}
+@tbl-cars shows the start of the cars dataset.
+
+```{r}
+#| label: tbl-cars
+#| tbl-cap: "Cars"
+knitr::kable(head(cars))
+```
+
+## Materials and Methods
+
+Chucked it at the wall and saw what stuck.
