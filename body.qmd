@@ -20,5 +20,6 @@ knitr::include_graphics("img/bibi.jpg")
 ```{r}
 #| label: tbl-cars
 #| tbl-cap: "Cars"
-knitr::kable(head(cars))
+knitr::kable(head(mtcars))
+
 ```
