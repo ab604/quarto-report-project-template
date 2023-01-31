@@ -22,7 +22,3 @@ knitr::include_graphics("img/bibi.jpg")
 #| tbl-cap: "Cars"
 knitr::kable(head(cars))
 ```
-
-## Materials and Methods
-
-Chucked it at the wall and saw what stuck.

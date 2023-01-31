@@ -12,6 +12,10 @@
 #| child: body.qmd
 ```
 
+```{r m-and-m}
+#| child: materials-and-methods.qmd
+```
+
 ```{r references}
 #| child: references.qmd
 ```
