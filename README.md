@@ -1,6 +1,6 @@
 # A minimal template for creating scientific manuscript using Quarto
 
-This repo has a template for a minimal scientific manuscript using R and Quarto.
+This repo has a template for a minimal scientific manuscript using RStudio and [Quarto](https://quarto.org/).
 
 There may be better solutions, but this is a minimal example for creating a scientific manuscript using R and quarto and outputting a MS Word document for working with collaborators who only use MS Office. It should be simple enough to amend for `html` or `pdf` outputs.
 

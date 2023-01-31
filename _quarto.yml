@@ -5,9 +5,10 @@ format:
     csl: plos.csl
     link-citations: true
 
-# Turn of table of contents and section numbering
+# Turn off table of contents and section numbering
 toc: false
 number-sections: false
+
 # References bib file
 bibliography: references.bib  
 
