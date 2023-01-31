@@ -12,7 +12,9 @@ We done some science innit [@nicholas2022].
 #| echo: false
 knitr::include_graphics("img/bibi.jpg")
 ```
+
 {{< pagebreak >}}
+
 @tbl-cars shows the start of the cars dataset.
 
 ```{r}
