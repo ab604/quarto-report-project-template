@@ -18,7 +18,8 @@ There may be better solutions, but this is a minimal example for creating a scie
     -   `materials-and-methods.qmd` : all the methods
     -   `references.qmd` : the manuscript references
 -   references.bib : bibtex file of the references.
+- `drafts` : folder for the rendered `.docx` output 
 
 ## Rendering
 
-Quarto can't render to relative or absolute paths at the time of writing, plus I wanted to automatically date the output, so I created a R script that renders the document and then moves it to the drafts folder: `render_manuscript.R`.
+Quarto can't render to relative or absolute paths at the time of writing, plus I wanted to automatically date the output, so I created a R script that when sourced renders the document and then moves it to the `drafts` folder: `render_manuscript.R`.
