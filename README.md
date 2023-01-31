@@ -8,7 +8,7 @@ There may be better solutions, but this is a minimal example for creating a scie
 
 -   `_quarto.yml` : the yaml file contains the configuration to be used across the quarto documents.
 -   `arial_template.docx` : MS Word document defining the fonts and heading styles.
--   `plos.csl` : Citation Style Language (CSL) document for PLoS referencing style.
+-   `plos.csl` : Citation Style Language (CSL) document for PLoS referencing style. All available styles [here](https://github.com/citation-style-language/styles).
 -   `img` : folder with a picture of Bibi for use as a figure in the manuscript.
 -   `index.qmd` : this contains R chunks for the quarto files that will be combined to create the final manuscript. The use of child documents I got from [Jeremy Perkels example for html reports](https://jperkel.github.io/computed_quarto_manuscript/).
 -   The individual quarto files for each part of the manuscript:
