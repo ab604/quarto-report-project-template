@@ -17,7 +17,7 @@ There may be better solutions, but this is a minimal example for creating a scie
     -   `body.qmd`: the main body of the manuscript
     -   `materials-and-methods.qmd` : all the methods
     -   `references.qmd` : the manuscript references
--   references.bib : bibtex file of the references.
+-  `references.bib` : bibtex file of the references.
 - `drafts` : folder for the rendered `.docx` output 
 
 ## Rendering
